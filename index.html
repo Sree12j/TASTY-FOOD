@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasty food</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--navbar--->
+    <nav class="navbar navbar-expand-lg bg-warning fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand text-danger fw-bold" href="#">Tasty Foods</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#orders">Orders</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-disabled="false" href="#location">Location</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- carosuel -->
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/img1 (1).jpg" class="slide d-block w-100" alt="img">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>A Taste of Tradition
+            </h3>
+              <p>Enjoy authentic recipes passed down through generations, made with love and the finest ingredients. Every bite tells a story of rich culinary heritage.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/img2.jpg" class=" slide d-block w-100" alt="img2">
+            <div class="carousel-caption d-none d-md-block">
+              <h3>Fresh Ingredients, Bold Flavors</h3>
+              <p>We believe in quality. Our dishes are prepared with locally sourced, farm-fresh ingredients to bring you bold, delicious flavors in every meal.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/img3.jpg" class="slide d-block w-100" alt="img3">
+            <div class="carousel-caption d-none d-md-block">
+              <h3> Savor Every Moment</h3>
+              <p>Whether it's a cozy dinner for two or a grand celebration, our warm ambiance and exceptional service make every dining experience special.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+   <!-- orders section -->
+    <h1 class="text-center text-danger my-4" id="orders">Order your food Here!!...</h1>
+    <div class="container">
+        <div class="row mt-5">
+            <div class="col-4">
+                <div class="card text-center border-2 border-warning" style="width: 20rem;  height:35rem;">
+                    <img src="images/oonu.webp" class="card-img-top" alt="">
+                    <div class="card-body">
+                      <h5 class="card-title">Nadan oonu</h5>
+                      <p class="card-text">Tasty kerala style nadan oonu</p>
+                      <h4 class="text-danger">Rs.70.00</h4>
+                      <a href="#" class="btn btn-primary">Order now</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-center border-2 border-warning" style="width: 20rem;  height:35rem;">
+                    <img src="images//masaladosaa.jpg" class="card-img-top" alt="" style="height: 300px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Masaladosaa</h5>
+                      <p class="card-text">Tasty kerala style Masaladosaa</p>
+                      <h4 class="text-danger">Rs.50.00</h4>
+                      <a href="#" class="btn btn-primary">Order now</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-center border-2 border-warning" style="width: 20rem;  height:35rem;">
+                    <img src="images/fishfry.webp" class="card-img-top" alt="" style="height: 300px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Fishfry</h5>
+                      <p class="card-text">Tasty kerala style Fishfry</p>
+                      <h4 class="text-danger">Rs.40.00</h4>
+                      <a href="#" class="btn btn-primary">Order now</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+        <div class="row my-5">
+            <div class="col-4">
+                <div class="card text-center border-2 border-warning" style="width: 20rem;  height:35rem;">
+                    <img src="images//idiyappam.jpg" class="card-img-top" alt="" style="height: 300px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Idiyappam</h5>
+                      <p class="card-text">Tasty kerala style Idiyappam</p>
+                      <h4 class="text-danger">Rs.30.00</h4>
+                      <a href="#" class="btn btn-primary">Order now</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-center border-2 border-warning" style="width: 20rem;  height:35rem;">
+                    <img src="images/vellayappam.jpeg" class="card-img-top" alt="" style="height: 300px;">
+                    <div class="card-body">
+                      <h5 class="card-title">vellayappam</h5>
+                      <p class="card-text">Tasty kerala style vellayappam</p>
+                      <h4 class="text-danger">Rs.40.00</h4>
+                      <a href="#" class="btn btn-primary">Order now</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-4">
+                <div class="card text-center border-2 border-warning" style="width: 20rem;  height:35rem;">
+                    <img src="images/pathiri.jpg" class="card-img-top" alt="" style="height: 300px;">
+                    <div class="card-body">
+                      <h5 class="card-title">Masaladosaa</h5>
+                      <p class="card-text">Tasty kerala style Masaladosaa</p>
+                      <h4 class="text-danger">Rs.50.00</h4>
+                      <a href="#" class="btn btn-primary">Order now</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer -->
+     <div class="container-fluid bg-warning"id="location">
+        <div class="row"  >
+            <div class="col-6 my-5 ">
+                <h1>Contact Us</h1>
+               <h3>Tasty food restaurant</h3>
+               <h4>Kochi</h4>
+               <h4>kerala</h4>
+               <p>Tel:085678</p>
+               <p>Email:tastyfood@gmail.com</p>
+            </div>
+            <div class="col-6  my-5">
+                <h3>Location</h3>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4490.551217924668!2d76.28704459104816!3d9.964919568094228!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d5ac142675f%3A0x496d3b3a330d1713!2sMahatma%20Gandhi%20Rd%2C%20Kochi%2C%20Kerala!5e0!3m2!1sen!2sin!4v1738149595945!5m2!1sen!2sin" width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+            </div>
+        </div>
+     </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+</body>
+</html>
